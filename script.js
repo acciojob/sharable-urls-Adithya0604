@@ -1,7 +1,7 @@
 const changeURL = document.getElementById('url');
 const GraduatedYear = document.getElementById('year');
 const Name = document.getElementById('name');
-const URL = 'https://localost:8080/';
+const URL = 'https://localhost:8080/';
 
 
 document.getElementById('button').addEventListener('click', () => {
