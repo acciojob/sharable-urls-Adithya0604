@@ -4,7 +4,7 @@ const Name = document.getElementById('name');
 const URL = 'https://localhost:8080/?';
 
 
-document.getElementbyId('button').addEventListener('click', () => {
+document.getElementById('button').addEventListener('click', () => {
 	const passName = Name.value.trim();
 	const passYear = GraduatedYear.value.trim();
 
