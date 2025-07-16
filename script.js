@@ -18,7 +18,7 @@ document.getElementById('button').addEventListener('click', () => {
 	}
 
 	if(queryArray.length > 0){
-		changeURL.textContent = `?${URL}${queryArray.join('&')}`;
+		changeURL.textContent = `${URL}?${queryArray.join('&')}`;
 	}else{
 	changeURL.textContent = `${URL}`
 		}
