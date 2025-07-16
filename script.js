@@ -1,7 +1,7 @@
 const changeURL = document.getElementById('url');
 const GraduatedYear = document.getElementById('year');
 const Name = document.getElementById('name');
-const URL = 'https://localhost:8080/?';
+const URL = 'https://localhost:8080/';
 
 
 document.getElementById('button').addEventListener('click', () => {
@@ -18,8 +18,8 @@ document.getElementById('button').addEventListener('click', () => {
 	}
 
 	if(queryArray.length > 0){
-		changeURL.textContent = `${URL}${queryArray.join('&')}`;
+		changeURL.textContent = `?${URL}${queryArray.join('&')}`;
 	}else{
-	changeURL.textContent = `Please Enter The Details`
+	changeURL.textContent = `${URL}`
 		}
 })
